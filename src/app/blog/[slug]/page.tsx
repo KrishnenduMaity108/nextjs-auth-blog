@@ -1,10 +1,4 @@
-interface BlogPageProps {
-  params: {
-    slug: string;
-  };
-}
-
-export default function BlogPage({ params }: BlogPageProps) {
+export default function BlogPage({ params }: { params: { slug: string } }) {
   const { slug } = params;
 
   return (
