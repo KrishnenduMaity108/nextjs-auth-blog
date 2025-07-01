@@ -2,6 +2,7 @@
   "name": "nextjs-auth-blog",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +11,6 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
-    "type": "module",
     "next": "15.0.0",
     "next-auth": "^4.24.0",
     "postcss": "^8.4.0",
