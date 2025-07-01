@@ -1,0 +1,55 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/                 # for `next export`
+
+# Production environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: if using Tailwind CSS JIT
+.tailwind-cache/
+
+# Optional: if using TurboRepo / Nx monorepo
+.turbo/
+dist/
+
+# Optional: if using vercel CLI
+.vercel/
+
+# Optional: next-auth debug cookies/session
+.next-auth/
+
+# Testing
+coverage/
+*.test.ts.snap
+*.test.js.snap
+
+# Output of lint-staged
+.staged/
+
+# Optional: Playwright or Cypress
+playwright-report/
+cypress/videos/
+cypress/screenshots/
